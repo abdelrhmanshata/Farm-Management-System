@@ -67,16 +67,18 @@ The Farm Management System is a Django-based application that provides secure ac
 ### Example API Endpoints
 
 **Auth**
+Base URL: `http://127.0.0.1:8000/api/user/`
 
-- **Register User:** `POST api/user/register/`
-- **Login User:** `POST api/user/login/`
-- **Refresh Token:** `POST api/user/token/refresh/`
-- **User Profile:** `GET api/user/profile/`
-- **Update User:** `PATCH api/user/update/`
+- **Register User:** `POST register/`
+- **Login User:** `POST login/`
+- **Refresh Token:** `POST token/refresh/`
+- **User Profile:** `GET profile/`
+- **Update User:** `PATCH update/`
 
-Base URL: `http://127.0.0.1:8000/api/farm/`
 
 **Farms**
+Base URL: `http://127.0.0.1:8000/api/farm/`
+
 
 - **List all farms:** `GET /farms/`
 - **Create a new farm:** `POST /farms/`
