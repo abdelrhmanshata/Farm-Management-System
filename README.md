@@ -18,7 +18,8 @@ The Farm Management System is a Django-based application that provides secure ac
     ```
     
 2. **Create and activate a virtual environment:**
-    On Linux,
+
+   On Linux,
     ```bash
     python -m venv venv
     source venv/bin/activate 
@@ -29,7 +30,7 @@ The Farm Management System is a Django-based application that provides secure ac
     venv\Scripts\activate
     ```
      
-3. **Install dependencies:**
+4. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
