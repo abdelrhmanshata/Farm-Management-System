@@ -66,8 +66,10 @@ The Farm Management System is a Django-based application that provides secure ac
 
 ### Example API Endpoints
 
+**Auth**
+
 - **Register User:** `POST api/user/register/`
-- **Obtain Token:** `POST api/user/login/`
+- **Login User:** `POST api/user/login/`
 - **Refresh Token:** `POST api/user/token/refresh/`
 - **User Profile:** `GET api/user/profile/`
 - **Update User:** `PATCH api/user/update/`
