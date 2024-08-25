@@ -74,3 +74,31 @@ The Farm Management System is a Django-based application that provides secure ac
 - **User Profile:** `GET api/user/profile/`
 - **Update User:** `PATCH api/user/update/`
 
+Base URL: `http://127.0.0.1:8000/api/farm/`
+
+**Farms**
+
+- **List all farms:** `GET /farms/`
+- **Create a new farm:** `POST /farms/`
+- **Retrieve a specific farm:** `GET /farms/{id}/`
+- **Update a specific farm:** `PUT /farms/{id}/`
+- **Partially update a specific farm:** `PATCH /farms/{id}/`
+- **Delete a specific farm:** `DELETE /farms/{id}/`
+
+**Crops**
+
+- **List all crops for farms owned by the authenticated user:** `GET /crops/`
+- **Create a new crop:** `POST /crops/`
+- **Retrieve a specific crop:** `GET /crops/{id}/`
+- **Update a specific crop:** `PUT /crops/{id}/`
+- **Partially update a specific crop:** `PATCH /crops/{id}/`
+- **Delete a specific crop:** `DELETE /crops/{id}/`
+
+**Animals**
+
+- **List all animals for farms owned by the authenticated user:** `GET /animals/`
+- **Create a new animal:** `POST /animals/`
+- **Retrieve a specific animal:** `GET /animals/{id}/`
+- **Update a specific animal:** `PUT /animals/{id}/`
+- **Partially update a specific animal:** `PATCH /animals/{id}/`
+- **Delete a specific animal:** `DELETE /animals/{id}/`
